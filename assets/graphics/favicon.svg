@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-labelledby="title">
+  <title>Black Wolf Detailing icon</title>
+  <defs>
+    <linearGradient id="g" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#f3dfbf" />
+      <stop offset="100%" stop-color="#c9a46a" />
+    </linearGradient>
+  </defs>
+  <rect width="128" height="128" rx="26" fill="#080b0f" />
+  <rect x="14" y="14" width="100" height="100" rx="22" fill="none" stroke="#2a313a" />
+  <path
+    d="M27 97V31h21l16 23 16-23h21v66H82V63L64 87 46 63v34H27Z"
+    fill="url(#g)"
+  />
+  <path
+    d="M101 48c-10 2-17 11-17 23 0 12 7 22 20 26-5 4-11 6-18 6-18 0-32-13-32-30 0-19 14-33 34-33 8 0 15 2 21 8l-8 11Z"
+    fill="url(#g)"
+    opacity=".88"
+  />
+</svg>

@@ -1,0 +1,442 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BlackWolf Detailing | Premium Detailing Website Starter</title>
+    <meta
+      name="description"
+      content="GitHub Pages-ready starter site for BlackWolf Detailing with a dark graphite aesthetic, subtle wolf-inspired branding, before-and-after comparison, and clear contact actions."
+    />
+    <meta name="theme-color" content="#05070a" />
+    <link rel="icon" href="assets/graphics/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Rajdhani:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+    <script src="scripts/main.js" defer></script>
+  </head>
+  <body>
+    <div class="progress-bar" aria-hidden="true">
+      <span class="progress-bar__fill" data-progress></span>
+    </div>
+
+    <div class="site-shell">
+      <header class="topbar" id="top">
+        <div class="topbar__inner">
+          <a class="brand" href="#top" aria-label="BlackWolf Detailing home">
+            <span class="brand__mark">BW</span>
+            <span class="brand__text">
+              <strong>BlackWolf Detailing</strong>
+              <span>Premium detailing starter</span>
+            </span>
+          </a>
+
+          <button
+            class="nav-toggle"
+            type="button"
+            aria-expanded="false"
+            aria-controls="site-nav"
+            data-nav-toggle
+          >
+            Menu
+          </button>
+
+          <nav class="topbar__nav" id="site-nav" aria-label="Primary">
+            <a href="#overview">Overview</a>
+            <a href="#services">Services</a>
+            <a href="#results">Results</a>
+            <a href="#contact">Contact</a>
+          </nav>
+
+          <a class="button button--small button--ghost topbar__cta" href="#contact">
+            Request Estimate
+          </a>
+        </div>
+      </header>
+
+      <main>
+        <section class="section hero" id="home">
+          <div class="section__inner hero__grid">
+            <div class="hero__copy" data-reveal>
+              <p class="eyebrow">Sharp finish. Quiet confidence.</p>
+              <h1 class="hero__title">BlackWolf Detailing for paint, glass, trim, and interior reset.</h1>
+              <p class="hero__lead">
+                This version leans into a darker, more premium identity with restrained wolf cues, graphite
+                tones, and strong booking paths. Swap in the real service area, photos, and reviews, and it
+                is ready for a GitHub Pages launch.
+              </p>
+
+              <div class="hero__actions">
+                <a class="button button--primary" href="#contact">Book by Text</a>
+                <a class="button button--ghost" href="#results">View Before / After</a>
+              </div>
+
+              <ul class="hero__meta" aria-label="Business highlights">
+                <li>
+                  <span>Fast estimate response</span>
+                  Same-day callback or text reply
+                </li>
+                <li>
+                  <span>Easy trust signals</span>
+                  Insured, respectful, detail checklist driven
+                </li>
+                <li>
+                  <span>Flexible service model</span>
+                  Mobile setup, driveway jobs, or shop handoff
+                </li>
+              </ul>
+            </div>
+
+            <aside class="hero__panel reveal-panel" data-reveal>
+              <div class="hero-card hero-card--accent">
+                <p class="hero-card__label">Brand feel</p>
+                <div class="hero-card__value">Dark, clean, premium without pushing too hard.</div>
+                <p class="hero-card__text">
+                  The site keeps the name memorable with subtle wolf signals, not mascot art. The result
+                  feels sharper, more modern, and still credible for a local detailing business.
+                </p>
+              </div>
+
+              <div class="hero-card-grid">
+                <article class="hero-card">
+                  <p class="hero-card__label">Primary CTA</p>
+                  <p class="hero-card__mini">Text for quote</p>
+                </article>
+                <article class="hero-card">
+                  <p class="hero-card__label">Ideal images</p>
+                  <p class="hero-card__mini">Paint correction, interiors, wheels</p>
+                </article>
+                <article class="hero-card hero-card--wide">
+                  <p class="hero-card__label">Brand angle</p>
+                  <p class="hero-card__mini">
+                    Graphite, silver, and low amber highlights give BlackWolf a distinct identity without
+                    getting loud or gimmicky.
+                  </p>
+                </article>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="section" id="overview">
+          <div class="section__inner">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Why this brand works</p>
+              <h2>A sharper detailing identity with subtle BlackWolf cues built in.</h2>
+              <p>
+                Instead of a generic local-business site, this version leans into graphite contrast,
+                metallic accents, angular typography, and just enough wolf-inspired atmosphere to feel
+                memorable.
+              </p>
+            </div>
+
+            <div class="feature-grid">
+              <article class="feature-card feature-card--wide" data-reveal>
+                <p class="feature-card__tag">Positioning</p>
+                <h3>Quiet confidence</h3>
+                <p>
+                  The visual language suggests precision, restraint, and high standards. That reads stronger
+                  for detailing than loud dealership-style graphics.
+                </p>
+              </article>
+
+              <article class="feature-card" data-reveal>
+                <p class="feature-card__tag">Modern feature</p>
+                <h3>Interactive result slider</h3>
+                <p>Drop in real customer photos and the before-and-after module is already wired.</p>
+              </article>
+
+              <article class="feature-card" data-reveal>
+                <p class="feature-card__tag">Mobile-first</p>
+                <h3>Sticky contact dock</h3>
+                <p>Phones get quick tap actions for call, text, and email without hunting through the page.</p>
+              </article>
+
+              <article class="feature-card" data-reveal>
+                <p class="feature-card__tag">Content flow</p>
+                <h3>Lead with trust, then proof</h3>
+                <p>Hero, services, results, process, and contact are arranged in the order most visitors scan.</p>
+              </article>
+
+              <article class="feature-card feature-card--wide" data-reveal>
+                <p class="feature-card__tag">Easy to customize</p>
+                <h3>No framework, no build step, no deployment friction.</h3>
+                <p>
+                  Everything lives in plain HTML, CSS, and JavaScript so BlackWolf can ship directly from a
+                  GitHub Pages repository root.
+                </p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="services">
+          <div class="section__inner">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Service blocks</p>
+              <h2>Package cards that feel premium without getting overbuilt.</h2>
+              <p>
+                The pricing is intentionally omitted here so you can decide later whether he wants fixed
+                packages, starting rates, or quote-only pricing.
+              </p>
+            </div>
+
+            <div class="service-grid">
+              <article class="service-card" data-reveal>
+                <p class="service-card__index">01</p>
+                <h3>Exterior Reset</h3>
+                <ul>
+                  <li>Foam wash and contact-safe finish</li>
+                  <li>Wheel faces and tire dressing</li>
+                  <li>Glass clean and touchpoint wipe-down</li>
+                </ul>
+              </article>
+
+              <article class="service-card" data-reveal>
+                <p class="service-card__index">02</p>
+                <h3>Interior Recovery</h3>
+                <ul>
+                  <li>Vacuum, compressed air, and trim wipe</li>
+                  <li>Seat, console, cupholder, and mat attention</li>
+                  <li>Odor and pet-hair add-on ready</li>
+                </ul>
+              </article>
+
+              <!-- <article class="service-card" data-reveal>
+                <p class="service-card__index">03</p>
+                <h3>Paint Correction</h3>
+                <ul>
+                  <li>Inspection under directional light</li>
+                  <li>Polish planning by paint condition</li>
+                  <li>Gloss recovery and defect reduction</li>
+                </ul>
+              </article> -->
+
+              <article class="service-card" data-reveal>
+                <p class="service-card__index">04</p>
+                <h3>Protection Package</h3>
+                <ul>
+                  <li>Sealant or ceramic upgrade slot</li>
+                  <li>Trim and glass protection options</li>
+                  <li>Maintenance cadence recommendation</li>
+                </ul>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--results" id="results">
+          <div class="section__inner results-grid">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Proof block</p>
+              <h2>Before-and-after results that sell the finish in seconds.</h2>
+              <p>
+                Replace the sample graphics with real customer work. The slider is already functional on
+                desktop and mobile, which makes it a strong fit for detailing.
+              </p>
+            </div>
+
+            <div class="compare-card" data-reveal>
+              <div class="compare" data-compare style="--split: 58%;">
+                <img
+                  class="compare__image"
+                  src="assets/graphics/detail-after.svg"
+                  alt="Placeholder after-detail vehicle graphic"
+                />
+
+                <div class="compare__before" aria-hidden="true">
+                  <img
+                    class="compare__image"
+                    src="assets/graphics/detail-before.svg"
+                    alt=""
+                  />
+                </div>
+
+                <div class="compare__labels" aria-hidden="true">
+                  <span>Before</span>
+                  <span>After</span>
+                </div>
+
+                <div class="compare__line" aria-hidden="true"></div>
+                <div class="compare__handle" aria-hidden="true">
+                  <span></span>
+                </div>
+
+                <input
+                  class="compare__range"
+                  type="range"
+                  min="15"
+                  max="85"
+                  value="58"
+                  aria-label="Compare before and after detailing result"
+                />
+              </div>
+
+              <div class="compare-card__caption">
+                <strong>Best photo recipe:</strong> same angle, same lighting, same crop, with the dirtiest
+                starting frame on the left and the finished result on the right.
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="process">
+          <div class="section__inner">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Process</p>
+              <h2>A clean four-step flow keeps the BlackWolf brand feeling organized and dependable.</h2>
+            </div>
+
+            <div class="timeline">
+              <article class="timeline__item" data-reveal>
+                <p class="timeline__step">01</p>
+                <h3>Inspect</h3>
+                <p>Start with condition notes, target areas, and a clear expectation for the final finish.</p>
+              </article>
+
+              <article class="timeline__item" data-reveal>
+                <p class="timeline__step">02</p>
+                <h3>Correct</h3>
+                <p>Use the right wash, decon, interior, and polish path instead of treating every vehicle the same.</p>
+              </article>
+
+              <article class="timeline__item" data-reveal>
+                <p class="timeline__step">03</p>
+                <h3>Protect</h3>
+                <p>Add the finish stage that matches the customer&apos;s budget, expectations, and maintenance habits.</p>
+              </article>
+
+              <article class="timeline__item" data-reveal>
+                <p class="timeline__step">04</p>
+                <h3>Hand Off</h3>
+                <p>Deliver the car clean, staged well, and ready for photos, repeat business, and referrals.</p>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="reviews">
+          <div class="section__inner">
+            <div class="section-heading" data-reveal>
+              <p class="eyebrow">Review placeholders</p>
+              <h2>Replace these with real Google, Facebook, or text-message reviews before launch.</h2>
+            </div>
+
+            <div class="review-grid">
+              <article class="review-card" data-reveal>
+                <p class="review-card__rating">[Placeholder review]</p>
+                <p>
+                  &ldquo;Truck came back cleaner than when I bought it. Easy communication and no overselling.&rdquo;
+                </p>
+                <span>Customer name</span>
+              </article>
+
+              <article class="review-card" data-reveal>
+                <p class="review-card__rating">[Placeholder review]</p>
+                <p>
+                  &ldquo;Interior cleanup was the biggest difference. Fast turnaround, clear pricing, zero hassle.&rdquo;
+                </p>
+                <span>Customer name</span>
+              </article>
+
+              <article class="review-card" data-reveal>
+                <p class="review-card__rating">[Placeholder review]</p>
+                <p>
+                  &ldquo;Paint looked deeper, wheels were spotless, and the booking process was simple from my phone.&rdquo;
+                </p>
+                <span>Customer name</span>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section--contact" id="contact">
+          <div class="section__inner contact-grid">
+            <div class="contact-copy" data-reveal>
+              <p class="eyebrow">Booking flow</p>
+              <h2>Built around quick estimates and clean follow-up.</h2>
+              <p>
+                Since this is a static site, the layout favors call, text, email, and social contact methods
+                that actually work on GitHub Pages without extra backend services.
+              </p>
+
+              <div class="contact-actions">
+                <a class="button button--primary" href="sms:+15550101600?body=Hi%20Black%20Wolf%20Detailing%2C%20I%27d%20like%20a%20quote.">
+                  Text Quote
+                </a>
+                <a class="button button--ghost" href="tel:+15550101600">Call Now</a>
+                <a class="button button--ghost" href="mailto:blackwolf.detail@gmail.com">Email</a>
+              </div>
+            </div>
+
+            <div class="contact-panel" data-reveal>
+              <div class="contact-panel__header">
+                <p class="hero-card__label">Replace these details before publishing</p>
+                <h3>Business contact board</h3>
+              </div>
+
+              <div class="contact-list">
+                <article class="contact-item">
+                  <span>Phone</span>
+                  <strong>(555) 010-1600</strong>
+                  <button type="button" class="utility-pill" data-copy="(555) 010-1600">Copy number</button>
+                </article>
+
+                <article class="contact-item">
+                  <span>Email</span>
+                  <strong>blackwolf.detail@gmail.com</strong>
+                  <button type="button" class="utility-pill" data-copy="blackwolf.detail@gmail.com">Copy email</button>
+                </article>
+
+                <article class="contact-item">
+                  <span>Instagram</span>
+                  <strong>@replacewithhandle</strong>
+                  <a class="utility-pill utility-pill--link" href="https://instagram.com/" target="_blank" rel="noreferrer">
+                    Open profile
+                  </a>
+                </article>
+
+                <article class="contact-item">
+                  <span>Service area</span>
+                  <strong>Clayton, NC</strong>
+                  <p>and surrounding areas</p>
+                </article>
+
+                <article class="contact-item">
+                  <span>Hours</span>
+                  <strong>Flexible Hours</strong>
+                  <p>Flexible to meet your needs</p>
+                </article>
+
+                <article class="contact-item">
+                  <span>Best website additions later</span>
+                  <strong>Real photos, reviews, and package prices</strong>
+                  <p>Optional next step: Calendly, Square, or a form backend like Formspree.</p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <div class="section__inner footer__inner">
+          <p>Static starter for a GitHub Pages BlackWolf Detailing site.</p>
+          <p>&copy; <span data-year></span> BlackWolf Detailing starter</p>
+        </div>
+      </footer>
+
+      <div class="contact-dock" aria-label="Quick contact">
+        <a href="tel:+15550101600">Call</a>
+        <a href="sms:+15550101600?body=Hi%20Black%20Wolf%20Detailing%2C%20I%27d%20like%20a%20quote.">Text</a>
+        <a href="mailto:blackwolf.detail@gmail.com">Email</a>
+      </div>
+
+      <div class="toast" data-toast aria-live="polite"></div>
+    </div>
+  </body>
+</html>

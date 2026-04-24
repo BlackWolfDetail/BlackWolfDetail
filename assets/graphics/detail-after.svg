@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">After detail placeholder</title>
+  <desc id="desc">Stylized vehicle illustration with glossy highlights to stand in for an after image.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b1411" />
+      <stop offset="50%" stop-color="#071018" />
+      <stop offset="100%" stop-color="#020406" />
+    </linearGradient>
+    <linearGradient id="car" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#9fb0b8" />
+      <stop offset="50%" stop-color="#f1f6fa" />
+      <stop offset="100%" stop-color="#6e7c87" />
+    </linearGradient>
+    <linearGradient id="shine" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#97f7b5" />
+      <stop offset="100%" stop-color="#9bd0ff" />
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#bg)" />
+  <g opacity=".06" stroke="#97f7b5">
+    <path d="M0 160h1600" />
+    <path d="M0 320h1600" />
+    <path d="M0 480h1600" />
+    <path d="M0 640h1600" />
+    <path d="M0 800h1600" />
+    <path d="M220 0v1000" />
+    <path d="M520 0v1000" />
+    <path d="M820 0v1000" />
+    <path d="M1120 0v1000" />
+    <path d="M1420 0v1000" />
+  </g>
+  <circle cx="1260" cy="160" r="170" fill="#97f7b5" opacity=".16" />
+  <circle cx="250" cy="160" r="120" fill="#7dbdff" opacity=".08" />
+  <g transform="translate(180 250)">
+    <path
+      d="M173 309c29-65 78-127 171-142l257-43c61-10 116 8 150 48l80 95 173 25c72 10 116 39 132 81l16 91H0l27-104c14-53 63-90 146-111Z"
+      fill="url(#car)"
+      stroke="#f6fbff"
+      stroke-opacity=".55"
+      stroke-width="8"
+    />
+    <path
+      d="M447 173 601 147c41-7 77 5 102 33l55 61H344l34-37c19-18 40-27 69-31Z"
+      fill="#dfe7ec"
+      fill-opacity=".55"
+    />
+    <path d="M828 184h138c31 0 60 13 81 36l49 54H865l-37-53Z" fill="#d9e2e8" fill-opacity=".48" />
+    <path d="M250 300c176 5 347-3 516-25" stroke="#ffffff" stroke-opacity=".78" stroke-width="14" stroke-linecap="round" />
+    <path d="M650 209c105 1 208 17 311 46" stroke="url(#shine)" stroke-width="11" stroke-linecap="round" />
+    <path d="M957 331c82 8 164 25 244 51" stroke="#97f7b5" stroke-width="10" stroke-linecap="round" stroke-opacity=".7" />
+    <ellipse cx="328" cy="465" rx="96" ry="96" fill="#11181e" stroke="#f3f7fa" stroke-width="14" />
+    <ellipse cx="1010" cy="465" rx="96" ry="96" fill="#11181e" stroke="#f3f7fa" stroke-width="14" />
+    <ellipse cx="328" cy="465" rx="42" ry="42" fill="#95a2ad" />
+    <ellipse cx="1010" cy="465" rx="42" ry="42" fill="#95a2ad" />
+  </g>
+  <g opacity=".28">
+    <ellipse cx="1030" cy="470" rx="420" ry="140" fill="#000" />
+    <ellipse cx="520" cy="480" rx="300" ry="120" fill="#000" />
+  </g>
+  <g opacity=".7">
+    <path d="M205 740c148-10 293-43 434-99" stroke="#7dbdff" stroke-width="5" stroke-linecap="round" />
+    <path d="M965 660c85-8 173-42 264-100" stroke="#97f7b5" stroke-width="6" stroke-linecap="round" />
+  </g>
+  <text
+    x="112"
+    y="130"
+    fill="#f2fff5"
+    font-family="Rajdhani, Arial, sans-serif"
+    font-size="72"
+    font-weight="700"
+    letter-spacing="14"
+    opacity=".9"
+  >
+    AFTER
+  </text>
+</svg>
